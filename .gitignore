@@ -1,5 +1,5 @@
 CMakeLists.txt
 CmakePresets.json
 .vscode
-out
-main
+.devcontainer
+build
