@@ -4,9 +4,13 @@
 		"dockerfile": "Dockerfile"
 	},
 	"customizations": {
-		"extensions": [
-			"ms-vscode.cpptools",
-			"ms-vscode.cmake-tools"
-		]
+		"vscode": {
+			"extensions": [
+				"llvm-vs-code-extensions.vscode-clangd",
+				"ms-vscode.cpptools",
+				"ms-vscode.cmake-tools",
+				"DavidAnson.vscode-markdownlint"
+			]
+		}
 	}
 }
