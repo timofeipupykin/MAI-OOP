@@ -1,5 +1,1 @@
-CMakeLists.txt
-CmakePresets.json
-.vscode
-.devcontainer
 build
