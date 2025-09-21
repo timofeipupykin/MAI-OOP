@@ -5,7 +5,7 @@
             "name": "Launch MAI-OOP (GDB)",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/MAI-OOP",
+            "program": "${workspaceFolder}/build/${fileDirnameBasename}/${fileDirnameBasename}",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

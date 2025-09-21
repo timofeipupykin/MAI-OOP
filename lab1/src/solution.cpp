@@ -1,6 +1,4 @@
-#include <iostream>
-
-using namespace std;
+#include <solution.hpp>
 
 int bin_count(int a){
     int count {0};
@@ -12,12 +10,10 @@ int bin_count(int a){
     return count;
 }
 
-int main(){
-    int a, b;
-    cin >> a >> b;
+int calc_ones(int a, int b){
     int result {0};    
     for (int i = a; i <= b; i++){
         result += bin_count(i);    
     }
-    cout << "Result is " << result << "\n";
+    return result;
 }
